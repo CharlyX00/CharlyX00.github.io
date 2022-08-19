@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+.contenedor-principal {
+  width: 100%;
+  background: #000000;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+
+.logo-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.tarjeta {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.7rem;
+  margin: 0 0.3rem;
+}
+
+button {
+  all: initial;
+  font: inherit;
+  cursor: pointer;
+  user-select: none;
+
+  color: #ffff;
+  background: #0a3871;
+  text-align: center;
+  margin: 10px 5px;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.contenedor-botones {
+  display: flex;
+}
+
+.mensaje-img {
+  position: relative;
+  width: 236px;
+  height: 304px;
+}
+
+.mensaje-contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  all: initial;
+  font: inherit;
+  background: transparent;
+  color: #0a3871;
+  padding: 1em 0.5em;
+}
+
+.userMenssage-p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+
+  position: absolute;
+  width: 500px;
+  height: 18px;
+  top: 120px;
+  background: transparent;
+  color: #0a3871;
+  border-radius: 5px;
+}
